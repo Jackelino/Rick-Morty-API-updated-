@@ -1,0 +1,167 @@
+// Variable overrides first
+$primary: #7efa63;
+$dark2:  #3c3e44;
+$white2: #bdbdbd;
+
+// Import module bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* styles compoenetes*/
+// APP
+#app {
+  background-color: #212529;
+}
+
+.components-top {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.main {
+  min-height: 100vh;
+}
+// FilterByStatus
+.filter {
+  background-color: #3c3e44;
+  border-radius: 10px;
+  height: 41px;
+}
+
+.nav-link:hover {
+  color:$primary !important;
+}
+
+
+.nav {
+  align-content: center !important;
+  align-items: center !important;
+}
+
+.nav-item a.active {
+  font-weight: bold;
+  color: $primary!important;
+}
+
+.nav-item a.active:hover {
+  font-weight: bold;
+  color: $green;
+}
+
+// FilterByName
+.border-input-seach {
+  background-color: $dark2;
+  border: 1px solid $white2;
+}
+.border-input-seach:focus {
+  box-shadow: 0px 0px 2px 3px #7ffa637e !important;
+  border: 1px solid $primary;
+  background-color: $dark2;
+}
+
+// ListCharacters
+.components-body {
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+.text-gren {
+  color: $primary !important;
+}
+
+.errorSearch {
+  min-height: 50vh;
+}
+
+// CardCharacter
+
+.status-alive {
+  color: $primary;
+}
+
+.card {
+  min-height: 550px;
+  border-radius: 30px 30px 30px 30px !important;
+  transition: all 200ms;
+}
+
+.card:hover {
+  border: 1px solid $primary !important;
+  box-shadow: 0px 0px 2px 3px #7ffa637e !important;
+}
+
+.card-img-top {
+  border-radius: 30px 30px 0px 0px !important;
+  transition: all 300ms;
+}
+
+.card-img-top:hover {
+  border-radius: 30px 30px 30px 30px !important;
+  -webkit-transform: scale(1.09);
+  -moz-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+  transform: scale(1.09);
+}
+
+.bg-card-dark {
+  background-color: $dark2 !important;
+}
+
+.font-span {
+  color: #dadada;
+  font-size: 16px;
+}
+
+.link-info {
+  color: #afafaf;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link-info:hover {
+  color: $primary;
+}
+
+.modal-header {
+  border-bottom: 1px solid #575757;
+}
+
+.modal-content {
+  border-radius: 30px;
+}
+
+.icon-close {
+  color: $primary !important;
+  background-color: $primary !important;
+  border-radius: 30px;
+}
+
+// ModalCharacter
+
+
+.modal-header {
+  border-bottom: 1px solid $dark2;
+}
+.modal-content {
+  border-radius: 30px;
+}
+.icon-close {
+  color: $primary !important;
+  background-color: $primary !important;
+  border-radius: 30px;
+}
+.specie {
+  color: #ff5e48;
+}
+.created {
+  color: #ecbe00;
+}
+.gender-male {
+  color: #00aeef;
+}
+.gender-female {
+  color: #ef5ca2;
+}
+.number {
+  color: #198754;
+}
